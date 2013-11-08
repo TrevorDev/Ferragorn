@@ -1,0 +1,20 @@
+<html>
+	<head><title>Ferragorn</title></head>
+	<body>
+		<script src="js/eElf.js"></script>
+		<script src="js/eTerrain.js"></script>
+		<script src="js/Neighbour.js"></script>
+		<script src="js/map.js"></script>
+		<script src="js/graph.js"></script>
+		<script src="js/astar.js"></script>
+		<script src="main.js"></script>
+		
+			<div name="map" id="map" style="position: absolute; top: 100; left: 100">
+				<canvas id="gameCanvas" width="400" height="400"style="position: absolute; top: 0; left: 0;" ></canvas>
+				<canvas id="gameCanvasTop" width="400" height="400"style="position: absolute; top: 0; left: 0;z-index:2;"></canvas>
+				<img src="map.png" height="400" width="400" style="position: absolute; top: 0; left: 0;z-index:-1;"></img>
+			</div>
+		
+		<script> main(); </script>		
+	</body>
+</html>
